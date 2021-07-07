@@ -1,0 +1,46 @@
+{
+  "name": "calc-multiplyservice",
+  "version": "1.0.0",
+  "description": "calculator multiplication application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config --watch src src/index.js",
+    "start": "node src/index.js",
+    "ci": "npm run lint"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [
+    "calc-multiplyservice",
+    "calculator"
+  ],
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "helmet": "^4.6.0",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://ali_nahid@bitbucket.org/ali_nahid/calc-multiplyservice.git"
+  },
+  "author": "Ali Nahid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://bitbucket.org/ali_nahid/calc-multiplyservice/issues"
+  },
+  "homepage": "https://bitbucket.org/ali_nahid/calc-multiplyservice#readme"
+}
